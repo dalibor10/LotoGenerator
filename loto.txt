@@ -1,0 +1,8 @@
+def loto():
+    import random
+    import time
+    for x in range(6):
+        print(random.randint(1, 46))
+        time.sleep(5)
+
+loto()

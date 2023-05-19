@@ -1,13 +1,13 @@
 def loto():
     import random
-    lista_brojeva = []
+    listOfNumbers= []
 
     for x in range(6):
-        slucajni_broj = random.randint(1, 46)
+        random_number = random.randint(1, 46)
     
-        while slucajni_broj in lista_brojeva:
+        while random_number in listOfNumbers:
             random.randint(1, 46)
         else: 
-            lista_brojeva.append(slucajni_broj)
+            listOfNumbers.append(random_number)
 
-    return lista_brojeva.sort()
+    return listOfNUmbers.sort()
